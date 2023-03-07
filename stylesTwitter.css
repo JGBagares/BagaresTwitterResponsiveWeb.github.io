@@ -1,0 +1,185 @@
+* {
+    font-size: 100%;
+    font-family: Arial;
+   }
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* leftside */
+
+
+.header{
+    margin: 50px;
+    flex-direction: column;
+    
+}
+
+#buttons{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+    width: 215px;
+}
+
+
+#buttons > i{
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-right: 4px;
+}
+
+.Tweetbtn{
+    background-color: #00ACEE;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+/* Center */
+.FY, .FW{
+    margin: 20px;
+}
+
+.navigation2{
+    margin-top: 55px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(235, 235, 235);
+ 
+}
+
+
+#pfp{
+    font-size: xx-large;
+    margin: 12px;
+}
+
+.tweets{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.maintweet{
+    margin: 10px;
+}
+
+.maintweetheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+/* Right */
+input[type=text]{
+    
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 600px;
+}
+
+h3{
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+
+}
+
+.trending{
+    padding-top: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trending > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 270px;
+    background-color: rgb(245, 245, 245);
+}
+
+.trending > div > h5{
+    margin: 1px 1px;
+    
+}
+
+
+
+
+/* Phone Media CSS */
+
+
+
+
+
+#twittericon1{
+    color: #00ACEE;
+}
+
+.phoneHeader{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+
+#buttons1{
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: x-large;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+}
